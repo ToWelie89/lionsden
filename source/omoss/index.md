@@ -1,6 +1,7 @@
 ---
 title: Om oss
 date: 2019-04-10 13:01:52
+slug: om-oss
 ---
 **
 *”Endast den som är mjuk kan vara hård”*
@@ -54,4 +55,23 @@ Träna? Maila då till info@gbgmuaythai.com eller ta dig till Lejonkulan Norra G
 Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen är "Norra Gubberogatan"
 
 <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lejonkulan%20g%C3%B6teborg%20muay&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-<br>
+
+## Tränare
+
+### Tävlingsgrupp
+
+<div class="trainer">
+    <img src="index/risberg.jpg" alt="Johan Risberg - Huvudtränare/Chef">
+</div>
+<div class="trainer">
+    <img src="index/thomsen-khru.jpg" alt="Patrick ”ลิงน้อย” Thomsen – Assisterande Tränare">
+</div>
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/stig.jpg" alt="Stig Faltin - Top class almighty Boxningscoach">
+</div>
+
+### Avancerad grupp
+
+### Fortsättargrupp
+
+### Nybörjargrupp
