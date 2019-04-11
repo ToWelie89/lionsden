@@ -1,0 +1,22 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      Lejonkulan/Göteborg Muay Thai<br>
+      Norra Gubberogatan 32<br>
+      416 63 Göteborg<br>
+      <a href="mailto:info@gbgmuaythai.com">info@gbgmuaythai.com</a><br>
+      <div style="padding-top: 5px;" class="socialMediaLinks">
+          <a href="https://www.facebook.com/lejonkulan/" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/gbgmuaythai/" target="_blank">
+              <i class="fab fa-instagram"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,43 @@
+# Header
+menu:
+  Hem: /
+  Om oss: /omoss
+  Nyheter: /nyheter
+  Galleri: /galleri
+  Schema: /schema
+  Shop: /shop
+  Privatlektioner: /privatlektioner
+
+# Content
+excerpt_link: Läs mer
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+disqus_shortname: lejonkulan
