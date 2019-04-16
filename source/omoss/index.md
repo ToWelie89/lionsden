@@ -42,9 +42,10 @@ För att ingen som tränar på vår klubb ska skada sig, samt för att alla ska 
 - Den som kan minst bestämmer tempot.
 - Inga hårda tekniker utövas på kamrater under sparring. Hårdhet utövas på mitts eller säck!
 
-**Avgifter:**
+## Avgifter
+
 2100 kr per termin, 100 kr av dem går till budoförbundet för att du ska hållas försäkrad mm.
-Betalning sker enklast via Swish till nummer 1230231357 eller genom insättning av summan på PlusGiro 1478839-2. Märk din inbetalning med namn och vilken grupp du anmäler dig till. Vid eventuella frågor angående ekonomi, inbetalningar och medlemsavgifter m.m. kontakta vår kassör Angelica: info@gbgmuaythai.com
+Betalning sker enklast via **Swish** till nummer **1230231357** eller genom insättning av summan på PlusGiro 1478839-2. Märk din inbetalning med namn och vilken grupp du anmäler dig till. Vid eventuella frågor angående ekonomi, inbetalningar och medlemsavgifter m.m. kontakta vår kassör Angelica: info@gbgmuaythai.com
 
 Eftersom Lejonkulan drivs som en ideell verksamhet tjänar vi inga pengar på klubben. Allt går till utgifter så som klubblokal, el, reparationer mm och för att skicka folk till SM, EM, VM eller andra tävlingar. Därför är det väldigt viktigt att du som elev gör allt du kan för att bli bättre, då det är ditt svett och slit som är betalningen till våra tränare!
 
@@ -54,7 +55,12 @@ Träna? Maila då till info@gbgmuaythai.com eller ta dig till Lejonkulan Norra G
 
 Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen är "Norra Gubberogatan"
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lejonkulan%20g%C3%B6teborg%20muay&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+<div class="mapouter">
+	<div class="gmap_canvas">
+		<iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lejonkulan%20g%C3%B6teborg%20muay&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		<a href="https://www.emojilib.com"></a>
+	</div>
+</div>
 
 ## Tränare
 
@@ -69,9 +75,31 @@ Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen 
 <div class="trainer" style="padding-bottom: 20px">
     <img src="index/stig.jpg" alt="Stig Faltin - Top class almighty Boxningscoach">
 </div>
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/ingen.jpg" alt="Yassir - Assisterande Tränare">
+</div>
+<div style="clear:both"></div>
 
 ### Avancerad grupp
 
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/ingen.jpg" alt="Viktor Larsson">
+</div>
+<div style="clear:both"></div>
+
 ### Fortsättargrupp
 
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/ingen.jpg" alt="Viktor Larsson">
+</div>
+<div style="clear:both"></div>
+
 ### Nybörjargrupp
+
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/ingen.jpg" alt="Nima Rafiei">
+</div>
+<div class="trainer" style="padding-bottom: 20px">
+    <img src="index/ingen.jpg" alt="Alessandro Larsson">
+</div>
+<div style="clear:both"></div>

@@ -31,11 +31,12 @@
 
     a
       text-decoration: none
-      color: color-link
-      font-size: 30px
+      color: #61bfe4
+      font-size: 40px
+      text-shadow: 0 0 10px #000000b5 !important
       &:hover
         text-decoration: none
-        color: #5cb4d6
+        color: #a1def6
 
 #banner
   position: absolute
@@ -91,6 +92,7 @@ $logo-text
   box-shadow: 1px 1px 10px #000000b5
   @media mq-mobile
     background: none
+    box-shadow: none
 
 $nav-link
   float: left
@@ -129,6 +131,9 @@ $nav-link
     content: "\f0c9"
   @media mq-mobile
     display: block
+    font-size: 24px
+    opacity: 1;
+    text-shadow: 0 0 10px black;
 
 #sub-nav
   float: right

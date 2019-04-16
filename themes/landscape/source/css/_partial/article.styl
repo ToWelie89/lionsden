@@ -39,13 +39,48 @@
     color: color-link
 
 
+#page-galleri
+  .galleryContainer
+    .galleryImage
+      width: 19%
+      @media mq-mobile
+        width: 49%
+      background-size: cover !important
+      height: 100px
+      background-position: 50% 50% !important
+      display: inline-block
+      img
+        width: 100%
+        opacity: 0
+      .caption
+        display: none
+
+
 #page-om-oss
+  .mapouter
+    width: 100%
+    .gmap_canvas
+      overflow: hidden
+      background: none !important
+      width: 100%
+
   .trainer
     width: 33%
     float: left
+    @media mq-mobile
+      width: 100%
+      padding-top: 10px
 
 #page-schema
   table
+    @media mq-mobile
+      transform: scale(0.8)
+      transform-origin: 0 0
+      td, th
+        &:last-child
+          display: none
+    th
+      border-bottom: 3px solid #7181b9
     td
       &:nth-child(odd)
         background-color: #a3b0de
@@ -375,16 +410,3 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
-
-.galleryContainer
-  .galleryImage
-    width: 19%
-    background-size: cover !important
-    height: 100px
-    background-position: 50% 50% !important
-    display: inline-block
-    img
-      width: 100%
-      opacity: 0
-    .caption
-      display: none
