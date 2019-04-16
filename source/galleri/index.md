@@ -6,7 +6,7 @@ date: 2019-04-09 16:42:17
 ## Tävling
 
 <div class="galleryContainer">
-    <div style="background: url(index/old/1.jpg)" class="galleryImage"><img src="index/old/1.jpg" alt="test" class="galleryThumbnail"></div>
+    <div style="background: url(index/old/1.jpg)" class="galleryImage"><img src="index/old/1.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/old/2.jpg)" class="galleryImage"><img src="index/old/2.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/old/3.jpg)" class="galleryImage"><img src="index/old/3.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/old/4.png)" class="galleryImage"><img src="index/old/4.png" alt="" class="galleryThumbnail"></div>
