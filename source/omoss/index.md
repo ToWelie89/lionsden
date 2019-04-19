@@ -3,6 +3,18 @@ title: Om oss
 date: 2019-04-10 13:01:52
 slug: om-oss
 ---
+
+## Innehållsförteckning
+1. [Om klubben](#om-klubben)
+2. [Regler och värderingar för Lejonkulan](#regler)
+3. [Avgifter](#avgifter)
+4. [Hitta hit](#hitta-hit)
+5. [Tränare](#tranare)
+6. [Grupperna](#grupperna)
+
+<a name="om-klubben"></a>
+## Om klubben
+
 **
 *”Endast den som är mjuk kan vara hård”*
 **
@@ -18,6 +30,7 @@ Göteborg Muay Thai har ”fostrat” sina Lejon till Svenska Mästare, Nordiska
 
 Tänker du nu att  Göteborg Muay Thai är något för dig, läs då igenom nedanstående:
 
+<a name="regler"></a>
 ## Regler och värderingar för Lejonkulan
 
 **På Lejonkulan vill vi se att ni som tränar är:**
@@ -42,6 +55,7 @@ För att ingen som tränar på vår klubb ska skada sig, samt för att alla ska 
 - Den som kan minst bestämmer tempot.
 - Inga hårda tekniker utövas på kamrater under sparring. Hårdhet utövas på mitts eller säck!
 
+<a name="avgifter"></a>
 ## Avgifter
 
 2100 kr per termin, 100 kr av dem går till budoförbundet för att du ska hållas försäkrad mm.
@@ -51,6 +65,7 @@ Eftersom Lejonkulan drivs som en ideell verksamhet tjänar vi inga pengar på kl
 
 Träna? Maila då till info@gbgmuaythai.com eller ta dig till Lejonkulan Norra Gubberogatan 32 (Olskroken). Information om nästa terminsstart för nybörjare och mellangrupp kommer att läggas ut på hemsidan när det är dags, men hör gärna av dig och visa intresse oavsett var i terminerna vi är.
 
+<a name="hitta-hit"></a>
 ## Hitta hit
 
 Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen är "Norra Gubberogatan"
@@ -62,6 +77,7 @@ Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen 
 	</div>
 </div>
 
+<a name="tranare"></a>
 ## Tränare
 
 ### Tävlingsgrupp
@@ -103,3 +119,24 @@ Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen 
     <img src="index/ingen.jpg" alt="Alessandro Larsson">
 </div>
 <div style="clear:both"></div>
+
+<a name="grupperna"></a>
+## De olika grupperna
+
+Det finns fyra olika träningsgrupper på Lejonkulan. Är du nybörjare så bör du gå i nybörjargruppen. Vill du satsa helhjärtat på sporten och tävla så bör du gå i tävlingsgruppen. Däremellan har vi även fortsättargruppen och avancerat-gruppen. På så sätt finns det alltid en lämplig grupp för dig att träna i, oavsett om du är amatör, en motionär som bara vill ha kul och få lite bra träning, eller en elitfighter.
+
+### Nybörjargruppen
+
+Ingen tidigare erfarenhet krävs. Här lär man sig thaiboxning från grunden.
+
+### Fortsättargruppen
+
+För den som har minst 1-2 terminers erfarenhet av thaiboxning. Den naturliga fortsättningen för den som redan tränat i nybörjargruppen.
+
+### Avancerade gruppen
+
+För den som behärskar alla thaiboxningstekniker och är bekväm i alla sparringmoment.
+
+### Tävlingsgruppen
+
+Här krävs det att från varje deltagare att det finns en vilja att tävla i thaiboxning. Det förväntas även hög närvaro på klubben och att man även tar eget ansvar för sin utveckling.
