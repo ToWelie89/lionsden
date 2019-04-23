@@ -10,11 +10,13 @@ slug: galleri
     <div style="background: url(index/new/17.jpg)" class="galleryImage"><img src="index/new/17.jpg" alt="Filiph Waldt - Silver- och bronsmedaljör i VM, tvåfaldig svensk mästare och skandinavisk mästare" class="galleryThumbnail"></div>
     <div style="background: url(index/new/1.jpg)" class="galleryImage"><img src="index/new/1.jpg" alt="Yassin Boujrad - Guldmedaljör i junior-SM 2018" class="galleryThumbnail"></div>
     <div style="background: url(index/new/20.jpg)" class="galleryImage"><img src="index/new/20.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/30.jpg)" class="galleryImage"><img src="index/new/30.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/new/26.jpg)" class="galleryImage"><img src="index/new/26.jpg" alt="Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/new/3.jpg)" class="galleryImage"><img src="index/new/3.jpg" alt="Filiph Waldt" class="galleryThumbnail"></div>
     <div style="background: url(index/new/4.jpg)" class="galleryImage"><img src="index/new/4.jpg" alt="Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/new/5.jpg)" class="galleryImage"><img src="index/new/5.jpg" alt="Filiph Waldt" class="galleryThumbnail"></div>
     <div style="background: url(index/new/6.jpg)" class="galleryImage"><img src="index/new/6.jpg" alt="Corinn Hennis" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/31.jpg)" class="galleryImage"><img src="index/new/31.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/new/10.jpg)" class="galleryImage"><img src="index/new/10.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
     <div style="background: url(index/new/7.jpg)" class="galleryImage"><img src="index/new/7.jpg" alt="Corinn Hennis" class="galleryThumbnail"></div>
     <div style="background: url(index/new/13.jpg)" class="galleryImage"><img src="index/new/13.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
@@ -22,17 +24,19 @@ slug: galleri
     <div style="background: url(index/new/22.jpg)" class="galleryImage"><img src="index/new/22.jpg" alt="Linda Åhlström" class="galleryThumbnail"></div>
     <div style="background: url(index/new/11.jpg)" class="galleryImage"><img src="index/new/11.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
     <div style="background: url(index/new/15.jpg)" class="galleryImage"><img src="index/new/15.jpg" alt="Nima Rafiei" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/34.jpg)" class="galleryImage"><img src="index/new/34.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/new/16.jpg)" class="galleryImage"><img src="index/new/16.jpg" alt="Filiph Waldt - Silvermedaljör i VM 2017" class="galleryThumbnail"></div>
     <div style="background: url(index/new/24.jpg)" class="galleryImage"><img src="index/new/24.jpg" alt="Sofia Kosunen" class="galleryThumbnail"></div>
     <div style="background: url(index/new/18.jpg)" class="galleryImage"><img src="index/new/18.jpg" alt="Filiph Waldt" class="galleryThumbnail"></div>
     <div style="background: url(index/new/23.jpg)" class="galleryImage"><img src="index/new/23.jpg" alt="Linda Åhlström" class="galleryThumbnail"></div>
     <div style="background: url(index/new/27.jpg)" class="galleryImage"><img src="index/new/27.jpg" alt="Yassin Boujrad" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/32.jpg)" class="galleryImage"><img src="index/new/32.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/new/28.jpg)" class="galleryImage"><img src="index/new/28.jpg" alt="Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/new/19.jpg)" class="galleryImage"><img src="index/new/19.jpg" alt="Filiph Waldt" class="galleryThumbnail"></div>
-    <div style="background: url(index/new/20.jpg)" class="galleryImage"><img src="index/new/20.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
     <div style="background: url(index/new/21.jpg)" class="galleryImage"><img src="index/new/21.jpg" alt="Corinn Hennis" class="galleryThumbnail"></div>
     <div style="background: url(index/new/25.jpg)" class="galleryImage"><img src="index/new/25.jpg" alt="Pierre John" class="galleryThumbnail"></div>
     <div style="background: url(index/new/29.jpg)" class="galleryImage"><img src="index/new/29.jpg" alt="Martin Sonesson" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/33.jpg)" class="galleryImage"><img src="index/new/33.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/old/1.jpg)" class="galleryImage"><img src="index/old/1.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/old/2.jpg)" class="galleryImage"><img src="index/old/2.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/old/3.jpg)" class="galleryImage"><img src="index/old/3.jpg" alt="" class="galleryThumbnail"></div>
@@ -66,10 +70,12 @@ slug: galleri
 <div class="galleryContainer">
     <div style="background: url(index/training_new/1.jpg)" class="galleryImage"><img src="index/training_new/1.jpg" alt="Viktor Larsson och Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/10.jpg)" class="galleryImage"><img src="index/training_new/10.jpg" alt="Nasim Kazem och Filiph Waldt" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/13.jpg)" class="galleryImage"><img src="index/training_new/13.jpg" alt="Huvudtränare Johan Risberg och Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/6.jpg)" class="galleryImage"><img src="index/training_new/6.jpg" alt="Viktor Larsson och Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/2.jpg)" class="galleryImage"><img src="index/training_new/2.jpg" alt="Nasim Kazem och Viktor Larsson" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/8.jpg)" class="galleryImage"><img src="index/training_new/8.jpg" alt="Viktor Larsson och Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/11.jpg)" class="galleryImage"><img src="index/training_new/11.jpg" alt="" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/12.jpg)" class="galleryImage"><img src="index/training_new/12.jpg" alt="Huvudtränare Johan Risberg och Leo Eshagi" class="galleryThumbnail"></div>
     <div style="background: url(index/training_old/1.jpg)" class="galleryImage"><img src="index/training_old/1.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/training_old/2.jpg)" class="galleryImage"><img src="index/training_old/2.jpg" alt="" class="galleryThumbnail"></div>
     <div style="background: url(index/training_old/3.jpg)" class="galleryImage"><img src="index/training_old/3.jpg" alt="" class="galleryThumbnail"></div>
