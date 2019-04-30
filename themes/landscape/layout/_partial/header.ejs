@@ -4,7 +4,11 @@
   </div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
-      <img src="./../logo5.png" alt="" id="">
+      <% if (page.layout == 'post'){ %>
+        <img src="./../../../../logo5.png" alt="" id="">
+      <% } else { %>
+        <img src="./../logo5.png" alt="" id="">
+      <% } %>
       <h1 id="logo-wrap" style="display: none;">
         <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
