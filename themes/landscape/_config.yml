@@ -40,4 +40,5 @@ google_plus:
 fb_admins:
 fb_app_id:
 
-disqus_shortname: lejonkulan
+disqus_shortname: lejonkulan-1
+comments: true
