@@ -13,8 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ToWelie89.github.io/lionsdenpublic
-root: /lionsdenpublic/
+url: http://ToWelie89.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,7 +78,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:ToWelie89/lionsdenpublic.git
+  repo: git@github.com:ToWelie89/towelie89.github.io.git
   branch: master
 
 marked:
