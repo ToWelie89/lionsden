@@ -14,4 +14,3 @@ slug: schema
 
 
 ***** **OBS!** Boxningspassen med Stig hålls inte regelbundet. Det meddelas i den interna Facebookgruppen för kommunikation oftast dagen innan ifall dessa pass blir av eller inte. Det beror på antal intresserade och Stigs välmående.
-<br>

@@ -4,6 +4,7 @@
 .article-inner
   @extend $block
   overflow: hidden
+  box-shadow: 1px 2px 8px #000
 
 .article-meta
   clearfix()
@@ -11,12 +12,13 @@
 .article-date
   @extend $block-caption
   float: left
+  color: #cccccc
 
 .article-category
   float: left
   line-height: 1em
   color: #ccc
-  text-shadow: 0 1px #fff
+  text-shadow: 0 1px #000
   margin-left: 8px
   &:before
     content: "\2022"
@@ -72,6 +74,14 @@
       padding-top: 10px
 
 #page-schema
+  .article-entry
+    @media mq-mobile
+      padding: 0
+      overflow-x: scroll
+  p
+    @media mq-mobile
+      padding: 20px
+      margin-top: -120px
   table
     @media mq-mobile
       transform: scale(0.8)
@@ -156,7 +166,7 @@
       margin-right: 0.5em
       margin-left: 1em
   .caption
-    color: color-grey
+    color: #7d7d7d
     display: block
     font-size: 0.9em
     margin-top: 0.5em
@@ -183,7 +193,7 @@
   border-radius: 15px
   background: color-background
   color: color-grey
-  text-shadow: 0 1px #fff
+  text-shadow: 0 1px #000
   text-decoration: none
   &:hover
     background: color-link
@@ -242,7 +252,7 @@
 
 .article-nav-link-wrap
   text-decoration: none
-  text-shadow: 0 1px #fff
+  text-shadow: 0 1px #000
   color: color-grey
   box-sizing: border-box
   margin-top: block-margin
@@ -316,7 +326,7 @@ $article-share-link
   float: left
   position: relative
   color: #999
-  text-shadow: 0 1px #fff
+  text-shadow: 0 1px #000
   &:before
     font-size: 20px
     font-family: font-icon
