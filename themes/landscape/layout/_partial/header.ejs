@@ -4,7 +4,17 @@
   </div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
-      <img src="<%- relative_url(path, config.root).replace('index.html', '') %>/logo5.png" alt="" id="">
+      <% if (url_for(path).split('/').length == 2){ %>
+        <img src="/logo5.png" alt="" id="">
+      <% } else if (url_for(path).split('/').length == 3) { %>
+        <img src="/../logo5.png" alt="" id="">
+      <% } else if (url_for(path).split('/').length == 4) { %>
+        <img src="/../../logo5.png" alt="" id="">
+      <% } else if (url_for(path).split('/').length == 5) { %>
+        <img src="/../../../logo5.png" alt="" id="">
+      <% } else if (url_for(path).split('/').length == 6) { %>
+        <img src="/../../../../logo5.png" alt="" id="">
+      <% } %>
       <h1 id="logo-wrap" style="display: none;">
         <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
