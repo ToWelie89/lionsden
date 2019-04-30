@@ -89,3 +89,6 @@ marked:
   breaks: false
   smartLists: true
   smartypants: false
+
+disqus_shortname: lejonkulan-1
+comments: true
