@@ -17,6 +17,7 @@ slug: galleri
     <div style="background: url(index/new/5.jpg)" class="galleryImage"><img src="index/new/5.jpg" alt="Filiph Waldt" class="galleryThumbnail"></div>
     <div style="background: url(index/new/6.jpg)" class="galleryImage"><img src="index/new/6.jpg" alt="Corinn Hennis" class="galleryThumbnail"></div>
     <div style="background: url(index/new/31.jpg)" class="galleryImage"><img src="index/new/31.jpg" alt="Leo Eshagi" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/35.jpg)" class="galleryImage"><img src="index/new/35.jpg" alt="Ellen Svärd" class="galleryThumbnail"></div>
     <div style="background: url(index/new/10.jpg)" class="galleryImage"><img src="index/new/10.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
     <div style="background: url(index/new/7.jpg)" class="galleryImage"><img src="index/new/7.jpg" alt="Corinn Hennis" class="galleryThumbnail"></div>
     <div style="background: url(index/new/13.jpg)" class="galleryImage"><img src="index/new/13.jpg" alt="Alexandra Andersröd" class="galleryThumbnail"></div>
