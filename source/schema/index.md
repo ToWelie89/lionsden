@@ -4,6 +4,12 @@ date: 2019-04-10 13:02:00
 slug: schema
 ---
 
+## Sommarträning
+
+**OBS!** Från och med **vecka 25** och framtill höstterminen börjar så gäller inte längre nedanstående schema. Under denna tidsperiod kommer sommarträning istället äga rum. Detta innebär att sommarpass hålls **måndagar**, **tisdagar** och **torsdagar** klockan **18-20**. Dessa pass är till för **ALLA** grupper.
+
+<br>
+
 | Måndag | Tisdag | Onsdag | Torsdag | Fredag | Lördag | Söndag |
 |---|---|---|---|---|---|---|
 | <span>6:30 - 8:00</span><br>Alla grupper |   | <span>6:30 - 8:00</span><br>Alla grupper |   |   |   |   |
