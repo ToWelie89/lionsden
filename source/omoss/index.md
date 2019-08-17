@@ -58,8 +58,8 @@ För att ingen som tränar på vår klubb ska skada sig, samt för att alla ska 
 <a name="avgifter"></a>
 ## Avgifter
 
-2100 kr per termin, 100 kr av dem går till budoförbundet för att du ska hållas försäkrad mm.
-Betalning sker enklast via **Swish** till nummer **1230231357** eller genom insättning av summan på PlusGiro 1478839-2. Märk din inbetalning med namn och vilken grupp du anmäler dig till. Vid eventuella frågor angående ekonomi, inbetalningar och medlemsavgifter m.m. kontakta vår kassör Angelica: info@gbgmuaythai.com
+2200 kr per termin, 100 kr av dem går till budoförbundet för att du ska hållas försäkrad mm.
+Betalning sker enklast via **Swish** till nummer **1230231357** eller genom insättning av summan på **PlusGiro 1478839-2**. Märk din inbetalning med namn, personnummer och vilken grupp du anmäler dig till. Vid eventuella frågor angående ekonomi och inbetalningar, eller om du vill ha kvitto på din betalning, kontakta vår kassör Rebin på: rebin.fathli@reakconsulting.se
 
 Eftersom Lejonkulan drivs som en ideell verksamhet tjänar vi inga pengar på klubben. Allt går till utgifter så som klubblokal, el, reparationer mm och för att skicka folk till SM, EM, VM eller andra tävlingar. Därför är det väldigt viktigt att du som elev gör allt du kan för att bli bättre, då det är ditt svett och slit som är betalningen till våra tränare!
 
