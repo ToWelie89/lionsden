@@ -4,9 +4,9 @@ date: 2019-09-01 21:53:56
 tags:
 ---
 
-I lördags ägde Lion Fight rum på Kooperativet i Göteborg. Lion Fight är en mycket prestigefull gala, att de för första gången arrangerar i Sverige är betydelsefullt för svensk thaiboxning. Det bjöds på ett fullspäckat fightcard med många stjärnor och matcher av mycket hög kvalité.
+I lördags ägde Lion Fight 59 rum på Kooperativet i Göteborg. Lion Fight är en mycket prestigefull gala, att de för första gången arrangerar ett event i Sverige är betydelsefullt för svensk thaiboxning. Det bjöds på ett fullspäckat fightcard med många stjärnor och matcher av mycket hög kvalité.
 
-Två av våra figthers från Lejonkulan ställde upp: **Joakim Hägg** och **Nicholas Bryant**. Båda två vann sina matcher och gjorde mycket ifrån sig! **Joakim Hägg** vann på enigt domslut mot den norska mästaren Andreas Iversen. **Nicholas Bryant** vann via knockout med armbåge i fjärde ronden mot en tuff fighter från USA.
+Två av våra fighters från Lejonkulan ställde upp: **Joakim Hägg** och **Nicholas Bryant**. Båda två vann sina matcher och gjorde mycket bra ifrån sig! **Joakim Hägg** vann på enigt domslut mot den norska mästaren Andreas Iversen. **Nicholas Bryant** vann via knockout med armbåge i fjärde ronden mot Joshua Scales från USA.
 
 Kvällen blev en succé och vi är mycket stolta över våra fighters insatser! Nedan följer lite bilder från galan.
 
