@@ -2,6 +2,7 @@
   height: banner-height
   position: relative
   background: rgba(0, 0, 0, 0.49)
+  overflow: hidden
   &:before, &:after
     content: ""
     position: absolute
@@ -53,6 +54,27 @@
   background-size: cover
   z-index: -1
   box-shadow: 0 0 10px black
+
+#bannerVideo
+  video
+    width: 100%
+    position: absolute
+    margin-top: -18%
+    opacity: 0.8
+    @media mq-header-video-biggest
+      margin-top: -11%
+    @media mq-header-video-big
+      width: 125%
+      right: -5%
+      margin-top: -13%
+    @media mq-header-video-medium
+      width: 175%
+      right: -5%
+      margin-top: -18%
+    @media mq-header-video-mobile
+      width: 236%
+      right: -55%
+      margin-top: -25%
 
 #header-title
   text-align: center
@@ -113,6 +135,7 @@ $nav-link
   transition: opacity 0.2s
   display: block
   padding: 20px 15px
+  background: none
   &:first-child
     &:hover
       background: none !important
@@ -148,8 +171,8 @@ $nav-link
   @media mq-mobile
     display: block
     font-size: 24px
-    opacity: 1;
-    text-shadow: 0 0 10px black;
+    opacity: 1
+    text-shadow: 0 0 10px black
 
 #sub-nav
   float: right

@@ -1,5 +1,28 @@
 <header id="header">
-  <div id="banner"></div>
+  <!-- <div id="banner"></div> -->
+  <div id="bannerVideo">
+    <% if (url_for(path).split('/').length == 2){ %>
+      <video width="100%" autoplay muted loop>
+        <source src="/headervideo.mp4" type="video/mp4">
+      </video>
+    <% } else if (url_for(path).split('/').length == 3) { %>
+      <video width="100%" autoplay muted loop>
+        <source src="/../headervideo.mp4" type="video/mp4">
+      </video>
+    <% } else if (url_for(path).split('/').length == 4) { %>
+      <video width="100%" autoplay muted loop>
+        <source src="/../../headervideo.mp4" type="video/mp4">
+      </video>
+    <% } else if (url_for(path).split('/').length == 5) { %>
+      <video width="100%" autoplay muted loop>
+        <source src="/../../../headervideo.mp4" type="video/mp4">
+      </video>
+    <% } else if (url_for(path).split('/').length == 6) { %>
+      <video width="100%" autoplay muted loop>
+        <source src="/../../../../headervideo.mp4" type="video/mp4">
+      </video>
+    <% } %>
+  </div>
   <div class="header-bottom">
   </div>
   <div id="header-outer" class="outer">
