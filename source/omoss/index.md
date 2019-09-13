@@ -92,40 +92,40 @@ Vår adress är Norra Gubberogatan 32, 416 63 Göteborg. Närmaste hållplatsen 
     <img src="index/stig.jpg" alt="Stig Faltin - Top class almighty Boxningscoach">
 </div>
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Yassir - Assisterande Tränare">
+    <img src="index/yassir.jpg" alt="Yassir - Assisterande Tränare">
 </div>
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Patrik Khalaf - Assisterande Tränare">
+    <img src="index/patrik.jpg" alt="Patrik Khalaf - Assisterande Tränare">
 </div>
 <div style="clear:both"></div>
 
 ### Avancerad grupp
 
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Viktor Larsson">
+    <img src="index/viktor.jpg" alt="Viktor Larsson">
 </div>
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Simon Kvarnström">
+    <img src="index/simon.jpg" alt="Simon Kvarnström">
 </div>
 <div style="clear:both"></div>
 
 ### Fortsättargrupp
 
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Nima Rafiei">
+    <img src="index/nima.jpg" alt="Nima Rafiei">
 </div>
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Leo Eshagi">
+    <img src="index/leo.jpg" alt="Leo Eshagi">
 </div>
 <div style="clear:both"></div>
 
 ### Nybörjargrupp
 
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Nicholas Bryant">
+    <img src="index/nicholas.jpg" alt="Nicholas Bryant">
 </div>
 <div class="trainer" style="padding-bottom: 20px">
-    <img src="index/ingen.jpg" alt="Alessandro Larsson">
+    <img src="index/alessandro.jpg" alt="Alessandro Larsson">
 </div>
 <div style="clear:both"></div>
 
