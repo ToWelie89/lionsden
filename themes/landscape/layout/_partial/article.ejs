@@ -21,6 +21,29 @@
           </p>
         <% } %>
       <% } else { %>
+        <% if (post.title == 'Snart dags för ny termin! Vårterminen 2020'){ %>
+          <% if (url_for(path).split('/').length == 2){ %>
+            <video width="100%" controls  style="margin-top: 20px;" poster="./trailerposter2.png">
+              <source src="./trailer2.mp4" type="video/mp4">
+            </video>
+            <% } else if (url_for(path).split('/').length == 3) { %>
+            <video width="100%" controls  style="margin-top: 20px;" poster="/../trailerposter2.png">
+              <source src="/../trailer2.mp4" type="video/mp4">
+            </video>
+            <% } else if (url_for(path).split('/').length == 4) { %>
+            <video width="100%" controls  style="margin-top: 20px;" poster="/../../trailerposter2.png">
+              <source src="/../../trailer2.mp4" type="video/mp4">
+            </video>
+            <% } else if (url_for(path).split('/').length == 5) { %>
+            <video width="100%" controls  style="margin-top: 20px;" poster="/../../../trailerposter2.png">
+              <source src="/../../../trailer2.mp4" type="video/mp4">
+            </video>
+            <% } else if (url_for(path).split('/').length == 6) { %>
+            <video width="100%" controls  style="margin-top: 20px;" poster="/../../../../trailerposter2.png">
+              <source src="/../../../../trailer2.mp4" type="video/mp4">
+            </video>
+            <% } %>
+        <% } %>
         <%- post.content %>
       <% } %>
     </div>
