@@ -3,8 +3,8 @@ title: Lingnoi Muay Thai - Personlig träning och events
 date: 2019-04-10 13:02:11
 ---
 
-<video width="100%" controls style="margin-top: 20px;" poster="index/poster.png">
-  <source src="index/video2.mp4" type="video/mp4">
+<video id="lingnoiVideo" width="70%" controls style="margin-top: 20px;" poster="index/poster2.png">
+  <source src="index/video3.mp4" type="video/mp4">
 </video>
 
 ### Privatlektioner
@@ -12,7 +12,7 @@ Patrick, aka Lingnoi erbjuder privatlektioner för nybörjare och professionella
 
 Alla lektioner skräddarsys efter elevens önskemål. Med över 15 års erfarenhet av thaiboxning, SM Guld, VM Brons, 25 proffsmatcher, 3 år som fighter i Svenska Landslaget och numera coach i Svenska Landslaget kan Lingnoi hjälpa dig att uppnå dina mål.
 
-För frågor och information om priser och träningsupplägg: Ring Patrick på: 070-401 73 58 eller kolla efter Lingnoi Muay Thai – Personlig Träning och Events på facebook och skriv ett meddelande.
+För frågor och information om priser och träningsupplägg: Ring Patrick på: **070-401 73 58** eller kolla efter **[Lingnoi Muay Thai – Personlig Träning och Events på Facebook](https://www.facebook.com/lingnoipromotions)** och skriv ett meddelande.
 
 ### Svensexor och möhippor
 Efter era önskemål skräddarsys ett unikt och roligt paket för bruden/brudgummen och hela gänget. Ni kan välja mellan att köra ett hårt och roligt träningspass tillsammans eller vill ni se hedersgästen sparras mot en världsmästare i thaiboxning så finns det flera kvinnliga och manliga proffs till ert förfogande. Vi säljer ingen alkohol men BYO är helt okej. Bakom vår schysta bardisk kan mixa ni ert medtag och njuta av showen. Kontakta Patrick och bestäm ett upplägg som passar er.
