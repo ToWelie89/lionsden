@@ -21,5 +21,4 @@ Hoppas att vi kan vara till hjälp och underlätta för er som verkligen behöve
 Hör av er vid intresse,
 
 Mvh  
-Ledningen av Lejonkulan  
-0709960720 
+Ledningen av Lejonkulan
