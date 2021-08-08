@@ -1,5 +1,5 @@
 ---
-title: Anmälan termin VT 2021
+title: Anmälan termin HT 2021
 date: 2021-01-28 12:26:22
 ---
 
