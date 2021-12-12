@@ -16,6 +16,7 @@ Nu är det dags att börja anmäla sig för vårterminen som drar igång i janua
 * Vi kommer att behöva gå igenom alla anmälningar manuellt. Detta kan ta några dagar, så ha lite tålamod och håll koll på din inkorg, du kommer att få ett **bekräftelsemail** så småningom.
 * Det är viktigt att du anger din **korrekta email-adress**, annars kan vi inte kontakta dig!
 * **Avvakta med att betala terminsavgiften förrän du vet att du fått en plats**, så slipper vi onödigt strul.
+* När du får besked om att du har en plats är det viktigt att betala terminsavgiften (2400 kr) **omgående** för att behålla din plats (gäller ej nybörjare som får provträna en vecka innan man kanske kan få bli medlem)
 
 <div style="font-size: 32px; margin-bottom:20px; text-align: center;">
     [KLICKA HÄR FÖR ATT ANMÄLA DIG!](/anmalan)
