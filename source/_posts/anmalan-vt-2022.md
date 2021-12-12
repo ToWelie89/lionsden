@@ -11,7 +11,7 @@ tags:
 Nu är det dags att börja anmäla sig för vårterminen som drar igång i januari! Anmäl dig via formuläret som du når via knappen nedan.
 
 ## **Viktig information om anmälan**:
-* Vi har **begränsat antal platser**, dessvärre kan inte alla som vill få plats att träna hos oss. Om du inte får plats direkt så kan du hamna på en kö och eventuellt få en plats senare.
+* Vi har **begränsat antal platser**, dessvärre kan inte alla som vill få plats att träna hos oss. Om du inte får plats direkt så kan du hamna på en kölista och eventuellt få en plats senare.
 * **Tidigare medlemmar på klubben har förtur**.
 * Vi kommer att behöva gå igenom alla anmälningar manuellt. Detta kan ta några dagar, så ha lite tålamod och håll koll på din inkorg, du kommer att få ett **bekräftelsemail** så småningom.
 * Det är viktigt att du anger din **korrekta email-adress**, annars kan vi inte kontakta dig!
