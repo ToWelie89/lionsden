@@ -14,11 +14,10 @@ slug: schema
 | Måndag | Tisdag | Onsdag | Torsdag | Fredag | Lördag | Söndag |
 |---|---|---|---|---|---|---|
 | |  | <span>6:15 - 7:30</span><br>Alla grupper |   | <span>6:15 - 7:30</span><br>Alla grupper |   |   |
-|   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>12:00 - 13:30</span><br>Nybörjare + Fortsättare |   |
-|   |  |   |   | | <span>13:45 - 15:00</span><br>Avancerade |  |
-|   |  |   |   | | <span>15:00 - 17:00</span><br>Tävlande |  |
-| <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare |   |  |
-| <span>20:00 - 22:00</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare | <span>20:00 - 22:00</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare |   |   |   | |
+|   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>10:00 - 12:00</span><br>Avancerade + Tävlande |   |
+|   |  |   |   | | <span>12:00 - 13:30</span><br>Nybörjare + Fortsättare |  |
+| <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare |   | <span>17:00 - 19:00</span><br>Tjejträning |
+| <span>20:00 - 22:00</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare | <span>19:30 - 21:30</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare |   |   |   | |
 
 
 <!-- **OBS!** Schemat nedan är den som gäller under sommaren mellan 14:e juni och 20:e augusti. Efter sommaren kommer höstterminen dra igång och då kommer ett nytt schema.
