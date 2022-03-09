@@ -7,6 +7,21 @@ slug: galleri
 ## Tävling
 
 <div class="galleryContainer">
+    <div style="background: url(index/new/58.png)" class="galleryImage"><img src="index/new/58.png" alt="Robin Sundlöf" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/57.png)" class="galleryImage"><img src="index/new/57.png" alt="Nasim Kazem" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/56.png)" class="galleryImage"><img src="index/new/56.png" alt="Joakim Hägg" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/55.png)" class="galleryImage"><img src="index/new/55.png" alt="Joakim Hägg" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/54.jpg)" class="galleryImage"><img src="index/new/54.jpg" alt="Robin Sundlöf" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/53.jpg)" class="galleryImage"><img src="index/new/53.jpg" alt="Nasim Kazem" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/52.png)" class="galleryImage"><img src="index/new/52.png" alt="Filiph Waldt" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/51.jpg)" class="galleryImage"><img src="index/new/51.jpg" alt="Nicholas Bryant - trefaldig svensk mästare" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/50.png)" class="galleryImage"><img src="index/new/50.png" alt="Joakim Hägg" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/49.png)" class="galleryImage"><img src="index/new/49.png" alt="Nicholas Bryant - Europeisk mästare" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/48.png)" class="galleryImage"><img src="index/new/48.png" alt="Robin Sundlöf på Muay Thai for Life 1.0" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/47.png)" class="galleryImage"><img src="index/new/47.png" alt="Pierre John vinst på Muay Thai for Life 1.0" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/46.png)" class="galleryImage"><img src="index/new/46.png" alt="Nasim Kazem" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/45.jpg)" class="galleryImage"><img src="index/new/45.jpg" alt="Jacob Stenberg på Mikenta Fight Night" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/44.jpg)" class="galleryImage"><img src="index/new/44.jpg" alt="Leo Eshagi på Mikenta Fight Night" class="galleryThumbnail"></div>
     <div style="background: url(index/new/17.jpg)" class="galleryImage"><img src="index/new/17.jpg" alt="Filiph Waldt - Silver- och bronsmedaljör i VM, tvåfaldig svensk mästare och skandinavisk mästare" class="galleryThumbnail"></div>
     <div style="background: url(index/new/39.jpg)" class="galleryImage"><img src="index/new/39.jpg" alt="Nicholas Bryant i IFMA-VM" class="galleryThumbnail"></div>
     <div style="background: url(index/new/1.jpg)" class="galleryImage"><img src="index/new/1.jpg" alt="Yassin Boujrad - Guldmedaljör i junior-SM 2018" class="galleryThumbnail"></div>
@@ -77,6 +92,12 @@ slug: galleri
 ## Träning
 
 <div class="galleryContainer">
+    <div style="background: url(index/training_new/19.jpg)" class="galleryImage"><img src="index/training_new/19.jpg" alt="Daniel Diego Gustafsson" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/18.jpg)" class="galleryImage"><img src="index/training_new/18.jpg" alt="Martin Sonesson" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/17.jpg)" class="galleryImage"><img src="index/training_new/17.jpg" alt="Leo Eshagi, Yassin Boujrad och Nicholas Bryant" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/16.jpg)" class="galleryImage"><img src="index/training_new/16.jpg" alt="Leo Eshagi och Joel Rydholm" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/15.jpg)" class="galleryImage"><img src="index/training_new/15.jpg" alt="Nasim Kazem" class="galleryThumbnail"></div>
+    <div style="background: url(index/training_new/14.jpg)" class="galleryImage"><img src="index/training_new/14.jpg" alt="Martin Sonesson" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/1.jpg)" class="galleryImage"><img src="index/training_new/1.jpg" alt="Viktor Larsson och Joakim Hägg" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/10.jpg)" class="galleryImage"><img src="index/training_new/10.jpg" alt="Nasim Kazem och Filiph Waldt" class="galleryThumbnail"></div>
     <div style="background: url(index/training_new/13.jpg)" class="galleryImage"><img src="index/training_new/13.jpg" alt="Huvudtränare Johan Risberg och Leo Eshagi" class="galleryThumbnail"></div>
