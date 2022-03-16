@@ -5,13 +5,13 @@ tags:
 ---
 
 <div style="margin-top: 15px;" >
-    <div style="display: inline-block; width: 33%; vertical-align: top;">
+    <div style="display: inline-block; width: 32%; vertical-align: top;">
         {% asset_img 1.png %}
     </div>
-    <div style="display: inline-block; width: 33%; vertical-align: top;">
+    <div style="display: inline-block; width: 32%; vertical-align: top;">
         {% asset_img 2.png %}
     </div>
-    <div style="display: inline-block; width: 33%; vertical-align: top;">
+    <div style="display: inline-block; width: 32%; vertical-align: top;">
         {% asset_img 3.png %}
     </div>
 </div>

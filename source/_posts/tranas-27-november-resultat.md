@@ -13,12 +13,12 @@ Fem fighters från Lejonkulan ställde upp i Tranås Open idag. Det slutade med 
     }
 </style>
 
-<div style="display: inline-block; width: 33%; height: 370px; max-height: 370px;" class="tranasbild">
+<div style="display: inline-block; width: 32%; height: 370px; max-height: 370px;" class="tranasbild">
 	{% asset_img 1.png %}
 </div>
-<div style="display: inline-block; width: 33%; height: 370px;max-height: 370px;" class="tranasbild">
+<div style="display: inline-block; width: 32%; height: 370px;max-height: 370px;" class="tranasbild">
 	{% asset_img 2.png %}
 </div>
-<div style="display: inline-block; width: 33%; height: 370px;max-height: 370px;" class="tranasbild">
+<div style="display: inline-block; width: 32%; height: 370px;max-height: 370px;" class="tranasbild">
 	{% asset_img 3.png %}
 </div>
