@@ -7,6 +7,9 @@ slug: galleri
 ## Tävling
 
 <div class="galleryContainer">
+    <div style="background: url(index/new/57.jpg)" class="galleryImage"><img src="index/new/57.jpg" alt="Jacob Stenberg, Nicklas Joabsson och Robin Sundlöf" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/56.jpg)" class="galleryImage"><img src="index/new/56.jpg" alt="Joakim Hägg" class="galleryThumbnail"></div>
+    <div style="background: url(index/new/55.jpg)" class="galleryImage"><img src="index/new/55.jpg" alt="Daniel Diego Gustafsson" class="galleryThumbnail"></div>
     <div style="background: url(index/new/58.png)" class="galleryImage"><img src="index/new/58.png" alt="Robin Sundlöf" class="galleryThumbnail"></div>
     <div style="background: url(index/new/57.png)" class="galleryImage"><img src="index/new/57.png" alt="Nasim Kazem" class="galleryThumbnail"></div>
     <div style="background: url(index/new/56.png)" class="galleryImage"><img src="index/new/56.png" alt="Joakim Hägg" class="galleryThumbnail"></div>
