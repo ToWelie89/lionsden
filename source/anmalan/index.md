@@ -8,4 +8,4 @@ Anmälan är inte öppen än för allmänheten, vänligen återkom senare till d
 anmälningsformulär här.
 </h3>
 
-<!-- <script type="text/javascript" src="https://form.jotform.com/jsform/221993582370361"></script> -->
+<script type="text/javascript" src="https://form.jotform.com/jsform/223311949794364"></script>
