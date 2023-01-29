@@ -15,8 +15,8 @@ slug: schema
 |---|---|---|---|---|---|---|
 | |  | <span>6:15 - 7:30</span><br>Alla grupper |   | <span>6:15 - 7:30</span><br>Alla grupper |   |   |
 |   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>10:00 - 11:30</span><br>Alla grupper |   | <span>10:00 - 12:00</span><br>Avancerade + Tävlande |   |
-|   |  |   |   | | <span>12:00 - 13:30</span><br>Nybörjare + Fortsättare |  |
-| <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare |   | <span>17:00 - 19:00</span><br>Tjejträning |
+|   |  |   |   | <span>17:00 - 18:30</span> Boxning (Avancerade och tävlande) | <span>12:00 - 13:30</span><br>Nybörjare + Fortsättare |  |
+| <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Tävlande | <span>17:30 - 19:30</span><br>Nybörjare | <span>17:30 - 19:30</span><br>Tävlande | <span>18:30 - 20:30</span><br>Nybörjare |   | <span>17:00 - 19:00</span><br>Tjejträning |
 | <span>20:00 - 22:00</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare | <span>19:30 - 21:30</span><br>Avancerade | <span>20:00 - 22:00</span><br>Fortsättare |   |   |   | |
 
 
