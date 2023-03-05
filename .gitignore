@@ -5,3 +5,6 @@ db.json
 node_modules/
 public/
 .deploy*/
+readIgFlow.js
+aiHelper.js
+handledIds.txt

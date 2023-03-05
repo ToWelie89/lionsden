@@ -2,10 +2,12 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "hexo": {
     "version": "3.9.0"
   },
   "dependencies": {
+    "chatgpt": "^5.0.6",
     "hexo": "^3.9.0",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-archive": "^0.1.5",
