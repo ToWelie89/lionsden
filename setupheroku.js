@@ -1,5 +1,7 @@
+import { exec } from "child_process";
+
 const shellCommand = (command) => new Promise((resolve, reject) => {
-    exec(command, (error, stdout, stderr) => {
+    exec(command, (error, stdout, stderr) => {     
         if (error) {
             console.log(`error: ${error.message}`);
             log('ERROR: Could not execute the shell command: ' + command);
