@@ -1,0 +1,1 @@
+web: node setupheroku.js
