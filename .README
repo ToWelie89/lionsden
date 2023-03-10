@@ -1,0 +1,56 @@
+# Lejonkulan
+
+## Automatic Instagram feed updater
+
+### Prerequisites
+Node 18+
+
+### Environment variables
+
+There is a Node script that will automatically fetch the feed from the Instagram account and generate Hexo posts from these IG posts, so as to sync the IG feed with the website posts.
+
+You need to creaet a .env file that has the following info
+
+```
+DIRNAME=<ROOT dir name here for the code>
+CHATGPT_KEY=<API token for chat gpt>
+INSTAGRAM_GRAPH_API_TOKEN=<API token for the Instagram graph token>
+MAIL_HOST=<Host name for the web host used for sending automated error log mails>
+MAIL_USERNAME=<Mail to send from>
+MAIL_PASSWORD=<Password for the mail account chosen>
+```
+
+**DIRNAME** for instance *C:/git/lionsden/*. Will be used to get the absolute path of a file.
+
+**CHATGPT_KEY** API token for ChatGPT. Get one here [here](https://platform.openai.com/account/usage). This is used for automatically generate a title based on a post caption.
+
+**INSTAGRAM_GRAPH_API_TOKEN** The auth token generated for the Lejonkulan Instagram account. Used to fetch own feed. To generate a token check [this tutorial](https://www.youtube.com/watch?v=E9OftnOmcIY)
+
+The variables for MAIL_HOST, MAIL_USERNAME and MAIL_PASSWORD are used to automatically send out mails to a receiver specied in the file mailer.js. To do this a sender user needs to be specied in the .env file with email, password and the host used (look up what your host server is depending on the email provider).
+
+### Running the script
+
+To sync the site with IG feed simply run the script
+
+```
+node readIgFlow.js
+```
+
+Provided that all the env-variables are set correctly this script will
+
+1. Fetch all of the recent posts for the IG account associated with the provided Instagram API token
+2. Check which of these IG posts do not have a corresponding website post
+3. If any, the script will then generate hexo posts for the unhandled posts from the IG feed. A call to ChatGPT is used to use AI to suggest a suitable title for the hexo post, based on the provided IG post caption. The post body is also cleaned up by removing hashtags (which serve no purpose on the site) and also tries to translated IG-handles to actual names (for instance @pellepersson would become 'Pelle Persson')
+
+If new Hexo posts were created, you can then update the site like this:
+
+```
+git add --all
+git commit -m "new posts"
+git push
+```
+This will only update the files in the source repo. To then deploy the new changes to the actual website run
+```
+hexo clean && hexo generate && hexo deploy
+```
+This will take the latest changes and the site from scratch and then deploy it to Github pages. This may take a few minutes.

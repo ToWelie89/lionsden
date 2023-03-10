@@ -1,6 +1,6 @@
 import { exec } from "child_process";
 
-const shellCommand = (command) => new Promise((resolve, reject) => {
+/* const shellCommand = (command) => new Promise((resolve, reject) => {
     exec(command, (error, stdout, stderr) => {     
         if (error) {
             console.log(`error: ${error.message}`);
@@ -23,12 +23,9 @@ const log = message => {
     } catch (err) {
         console.error(err);
     }
-}
+} */
 const run = async () => {
-    await shellCommand('git config --global user.email "sonesson8909@hotmail.com"')
-    await shellCommand('git config --global user.name "ToWelie89"')
-    await shellCommand('hexo new post test-12345');
-    await shellCommand('hexo deploy');
+    console.log('test test test test test test test test test test test test ')
 }
 
 run();
