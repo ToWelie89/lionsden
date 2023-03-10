@@ -248,13 +248,13 @@ const run = async () => {
                         postId = `nyhet-${item.id}`;
                     }
 
-                    const markdownPath = path.join(__dirname, `/source/_posts/${postId}.md`);
+                    const markdownPath = path.join(process.env.DIRNAME, `/source/_posts/${postId}.md`);
         
                     if (!fs.existsSync(markdownPath)) { // Hexo-post for this IG-post doesn't already exists
                         await hexoCreatePost(postId);
                         await delay(500);
 
-                        const postFolderPath = path.join(__dirname, `/source/_posts/${postId}`);
+                        const postFolderPath = path.join(process.env.DIRNAME, `/source/_posts/${postId}`);
                         if (item.media_type === 'IMAGE') {
                             await downloadImage(item.media_url, `${postFolderPath}/1.jpg`);
                         } else if (item.media_type === 'CAROUSEL_ALBUM') {
