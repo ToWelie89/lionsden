@@ -1,1 +1,1 @@
-web: node setupheroku.js
+clock: node performCron.js
