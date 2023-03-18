@@ -265,7 +265,7 @@ const run = async () => {
                                 }
                             }
                         } else if (item.media_type === 'VIDEO') {
-                            //await downloadImage(item.media_url, `${postFolderPath}/1.jpg`);
+                            await downloadImage(item.media_url, `${postFolderPath}/1.mp4`);
                         }
         
                         const date = new Date(item.timestamp);
@@ -276,9 +276,12 @@ const run = async () => {
                         let hour = date.getHours();
                         let minutes = date.getMinutes();
                         let seconds = date.getSeconds();
-                        [month, day, hour, minutes, seconds].forEach(x => {
-                            if (x < 10) x = `0${x}`;
-                        });
+
+                        if (month < 10) month = `0${month}`;
+                        if (day < 10) day = `0${day}`;
+                        if (hour < 10) hour = `0${hour}`;
+                        if (minutes < 10) minutes = `0${minutes}`;
+                        if (seconds < 10) seconds = `0${seconds}`;
         
                         let newCaption = captionClone.replaceAll(/#[a-zA-Z]{1,20}/g, '');
                         // Replace instagram handles with their real names
@@ -286,7 +289,9 @@ const run = async () => {
                         Object.keys(INSTAGRAM_HANDLES).forEach(key => {
                             newCaption = newCaption.replaceAll(key, INSTAGRAM_HANDLES[key]);
                         });
-                        console.log(item)
+                        console.log(item);
+
+                        let postPath = `/${year}/${month}/${day}/${postId}`;
                 
                         let markdownContent =
                         `---
@@ -302,7 +307,7 @@ const run = async () => {
                         ` : ''}
                         ${item.media_url && item.media_type === 'VIDEO' ? `
                         <video controls width="80%">
-                            <source src="${item.media_url}" type="video/mp4">
+                            <source src="${postPath}/1.mp4" type="video/mp4">
                         </video>
                         ` : ''}
                         ${item.media_url && item.media_type === 'CAROUSEL_ALBUM' ? `
