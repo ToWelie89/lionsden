@@ -44,6 +44,7 @@ const INSTAGRAM_HANDLES = {
     '@daniella.eshagi': 'Daniella Eshagi',
     '@lucaskano_': 'Lucas Kano',
     '@ericwhibley': 'Eric Whibley',
+    '@kvarnan': 'Simon Kvarnström',
 }
 
 const getTextBetween = (text, match1, match2) => {
