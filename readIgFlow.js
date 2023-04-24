@@ -212,10 +212,12 @@ const run = async () => {
                         const key2 = key1.toLowerCase();
                         const key3 = key2.replaceAll('_', '');
                         const key4 = key1.replaceAll('_', '');
-                        suggestedTitle = suggestedTitle.replaceAll(key1, value);
-                        suggestedTitle = suggestedTitle.replaceAll(key2, value);
-                        suggestedTitle = suggestedTitle.replaceAll(key3, value);
-                        suggestedTitle = suggestedTitle.replaceAll(key4, value);
+                        if (suggestedTitle) {
+                            suggestedTitle = suggestedTitle.replaceAll(key1, value);
+                            suggestedTitle = suggestedTitle.replaceAll(key2, value);
+                            suggestedTitle = suggestedTitle.replaceAll(key3, value);
+                            suggestedTitle = suggestedTitle.replaceAll(key4, value);
+                        }
                     });
         
                     suggestedTitle = suggestedTitle.replaceAll(/\([a-zA-Z0-9 ]{1,30}\)/g, ''); // remove stuff between parenthesis
