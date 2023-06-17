@@ -5,7 +5,7 @@ date: 2023-06-17 13:38:12
 
 <script defer>
 
-const endpoint = 'https://martinsonesson.se:3000/graphql';
+const endpoint = 'http://sti-starcraft.org:3000/graphql';
 
 var members;
 
