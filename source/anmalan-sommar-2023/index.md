@@ -112,11 +112,11 @@ function fetchAllSubmissions() {
     const tavling_count = members.filter(x => x.trainingGroup === 'Tävlingsgruppen').length;
     const morgon_count = members.filter(x => x.trainingGroup === 'MorgonFörmiddag').length;
 
-    document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
+    /* document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(3)').innerText += ` (${fortsattare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(4)').innerText += ` (${avancerade_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(5)').innerText += ` (${tavling_count} anmälda)`;
-    document.querySelector('#trainingGroup option:nth-child(6)').innerText += ` (${morgon_count} anmälda)`;
+    document.querySelector('#trainingGroup option:nth-child(6)').innerText += ` (${morgon_count} anmälda)`; */
   }).catch(console.error);
 }
 
