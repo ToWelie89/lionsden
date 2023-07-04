@@ -1,6 +1,6 @@
 ---
 title: Anmälan
-date: 2023-06-17 13:38:12
+date: 2023-07-04 23:28:40
 ---
 
 <script defer>
