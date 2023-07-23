@@ -113,7 +113,7 @@ function fetchAllSubmissions() {
     console.log('data returned:', resp);
     members = resp.data.members;
 
-    const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
+    /* const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
     const fortsattare_count = members.filter(x => x.trainingGroup === 'Fortsättargruppen').length;
     const avancerade_count = members.filter(x => x.trainingGroup === 'AvanceradeGruppen').length;
     const tavling_count = members.filter(x => x.trainingGroup === 'Tävlingsgruppen').length;
@@ -123,7 +123,7 @@ function fetchAllSubmissions() {
     document.querySelector('#trainingGroup option:nth-child(3)').innerText += ` (${fortsattare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(4)').innerText += ` (${avancerade_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(5)').innerText += ` (${tavling_count} anmälda)`;
-    document.querySelector('#trainingGroup option:nth-child(6)').innerText += ` (${morgon_count} anmälda)`;
+    document.querySelector('#trainingGroup option:nth-child(6)').innerText += ` (${morgon_count} anmälda)`; */
   }).catch(console.error);
 }
 
