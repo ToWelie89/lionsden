@@ -1,5 +1,5 @@
 ---
-title: GBG Kampsport
+title: Lejonkulan-tatuering
 date: 2023-08-22 15:06:45
 tags:
 ---
@@ -9,10 +9,7 @@ tags:
 {% asset_img 1.jpg %}
 </div>
 
-
-
-
-🦁 @gbgmuaythai 🦁
+🦁🦁
 
 <div class="automaticGeneratedPostDescription">
 Detta inlägg genereras automatiskt via vårt Instagram-flöde. För att se original-inlägget klicka <a target="_blank" href="https://www.instagram.com/p/CwP3lw8sHqz/">här</a>
