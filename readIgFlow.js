@@ -46,6 +46,7 @@ const INSTAGRAM_HANDLES = {
     '@ericwhibley': 'Eric Whibley',
     '@kvarnan': 'Simon Kvarnström',
     '@gbgmuaythai': 'GBG Muay Thai',
+    '@noel_ciba': 'Noel Ciba',
 }
 
 const getTextBetween = (text, match1, match2) => {
