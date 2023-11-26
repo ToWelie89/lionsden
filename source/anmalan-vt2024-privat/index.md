@@ -1,12 +1,10 @@
 ---
-title: Anmälan
-date: 2023-07-04 23:28:40
+title: Anmälan vårtermin 2024
+date: 2023-11-26 21:38:11
 ---
 
 <script defer>
-
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
-
 var members;
 
 const validateEmail = email => {
@@ -106,13 +104,13 @@ function fetchAllSubmissions() {
     console.log('data returned:', resp);
     members = resp.data.members;
 
-    const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
+    /* const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
     const fortsattare_count = members.filter(x => x.trainingGroup === 'Fortsättargruppen').length;
     const avancerade_count = members.filter(x => x.trainingGroup === 'AvanceradeGruppen').length;
     const tavling_count = members.filter(x => x.trainingGroup === 'Tävlingsgruppen').length;
     const morgon_count = members.filter(x => x.trainingGroup === 'MorgonFörmiddag').length;
 
-    /* document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
+    document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(3)').innerText += ` (${fortsattare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(4)').innerText += ` (${avancerade_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(5)').innerText += ` (${tavling_count} anmälda)`;
