@@ -4,6 +4,14 @@ date: 2023-11-26 21:38:11
 ---
 
 <script defer>
+
+//window.location.href = "http://stackoverflow.com";
+
+let currentUrl = window.location.href;
+if (currentUrl.includes('https')) {
+  window.location.href = currentUrl.replace('https', 'http');
+}
+
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
 var members;
 
