@@ -3,16 +3,13 @@ title: Anmälan vårtermin 2024
 date: 2023-11-26 21:38:11
 ---
 
+<script>
+  if (window.location.protocol == 'https:') {          
+    window.location.href = window.location.href.replace('https:', 'http:'); 
+  }
+</script>
+
 <script defer>
-
-//window.location.href = "http://stackoverflow.com";
-
-
-if (window.location.protocol == 'https:') {          
-    window.location.href = 
-        window.location.href.replace( 
-                'https:', 'http:'); 
-}
 
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
 var members;
