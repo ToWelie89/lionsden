@@ -7,10 +7,11 @@ date: 2023-11-26 21:38:11
 
 //window.location.href = "http://stackoverflow.com";
 
-let currentUrl = window.location.href;
-if (currentUrl.includes('https')) {
-  //window.location.href = currentUrl.replace('https', 'http');
-  window.location.replace(currentUrl.replace('https', 'http'));
+
+if (window.location.protocol == 'https:') {          
+    window.location.href = 
+        window.location.href.replace( 
+                'https:', 'http:'); 
 }
 
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
