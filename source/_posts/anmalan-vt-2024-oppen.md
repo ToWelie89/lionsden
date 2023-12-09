@@ -3,6 +3,7 @@ title: Anmälan för vårterminen 2024 öppen
 date: 2023-12-09 09:39:06
 tags:
 ---
+<div class="postId" style="display: none;">ID: 18103231363362433</div>
 
 <div style="padding-top: 20px; padding-bottom: 20px; width: 80%; margin: 0 auto;">
 	{% asset_img 1.jpg %}

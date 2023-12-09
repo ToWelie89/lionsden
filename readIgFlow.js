@@ -47,6 +47,9 @@ const INSTAGRAM_HANDLES = {
     '@kvarnan': 'Simon Kvarnström',
     '@gbgmuaythai': 'GBG Muay Thai',
     '@noel_ciba': 'Noel Ciba',
+    '@filiphwaldt': 'Filip Waldt',
+    '@nimadanielrafiei': 'Nima Rafiei',
+    '@motherfowolfs': 'Rebecka Rudén',
 }
 
 const getTextBetween = (text, match1, match2) => {
