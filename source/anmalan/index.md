@@ -18,7 +18,7 @@ if (window.location.href.startsWith('https')) {
     box.innerHTML = '';
   
     const link = document.createElement('a');
-    link.setAttribute('href', 'http://gbgmuaythai.com/anmalan');
+    link.setAttribute('href', 'http://tinyurl.com/mruz5vdj');
     link.innerText = 'Klicka här för att komma till anmälningsformuläret';
     link.style.fontSize = '25px';
   
