@@ -19,6 +19,7 @@ if (window.location.href.startsWith('https')) {
   
     const link = document.createElement('a');
     link.setAttribute('href', 'http://tinyurl.com/mruz5vdj');
+    link.setAttribute('target', '_blank');
     link.innerText = 'Klicka här för att komma till anmälningsformuläret';
     link.style.fontSize = '25px';
   
