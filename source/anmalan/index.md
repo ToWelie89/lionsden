@@ -12,6 +12,18 @@ anmälningsformulär här.
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
 var members;
 
+if (window.location.href.startsWith('https')) {
+  const box = document.getElementById('registerContainer');
+  box.innerHTML = '';
+
+  const link = document.createElement('a');
+  link.setAttribute('href', 'http://gbgmuaythai.com/anmalan');
+  link.innerText = 'Klicka här för att komma till anmälningsformuläret';
+  link.style.fontSize = '25px';
+
+  box.appendChild(link);
+}
+
 const validateEmail = email => {
   const regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
   return !!(email.match(regex) && email.match(regex).length === 1 && email.match(regex)[0] === email);
@@ -385,25 +397,25 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 </style>
 
-<div id="successBox" style="display: none;">
-  <div id="checkboxContainer">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+<div id="registerContainer">
+  <div id="successBox" style="display: none;">
+    <div id="checkboxContainer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+    </div>
+    <h3>
+      Tack för din anmälan!
+    </h3>
+    <p>
+      Du är härmed anmäld och bör ha fått ett automatiskt bekräftelse-mail till epost-adressen du angav. Vänligen anmäl dig inte mer gång än en.
+    </p>
   </div>
-  <h3>
-    Tack för din anmälan!
-  </h3>
-  <p>
-    Du är härmed anmäld och bör ha fått ett automatiskt bekräftelse-mail till epost-adressen du angav. Vänligen anmäl dig inte mer gång än en.
-  </p>
-</div>
-<div id="failBox" style="display: none;">
-  <h3>
-    Något gick fel med din anmälan
-  </h3>
-  <p></p>
-</div>
-
-<form action="javascript:void(0);" id="signupForm">
+  <div id="failBox" style="display: none;">
+    <h3>
+      Något gick fel med din anmälan
+    </h3>
+    <p></p>
+  </div>
+  <form action="javascript:void(0);" id="signupForm">
     <div id="signup">
         <div class="signup__row">
             <div class="signup__column">
@@ -523,4 +535,5 @@ document.addEventListener("DOMContentLoaded", function(){
             </div>
         </div>
     </div>
-</form>
+  </form>
+</div>
