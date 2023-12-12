@@ -8,4 +8,4 @@ Anmälan är inte öppen än för allmänheten, vänligen återkom senare till d
 anmälningsformulär här.
 </h3> -->
 
-<iframe src="http://sti-starcraft.org/form.php"></iframe>
+<iframe src="http://sti-starcraft.org/form.php" width="100%" height="1000px"></iframe>
