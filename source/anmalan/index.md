@@ -13,15 +13,17 @@ const endpoint = 'http://sti-starcraft.org:3000/graphql';
 var members;
 
 if (window.location.href.startsWith('https')) {
-  const box = document.getElementById('registerContainer');
-  box.innerHTML = '';
-
-  const link = document.createElement('a');
-  link.setAttribute('href', 'http://gbgmuaythai.com/anmalan');
-  link.innerText = 'Klicka här för att komma till anmälningsformuläret';
-  link.style.fontSize = '25px';
-
-  box.appendChild(link);
+  setTimeout(() => {
+    const box = document.getElementById('registerContainer');
+    box.innerHTML = '';
+  
+    const link = document.createElement('a');
+    link.setAttribute('href', 'http://gbgmuaythai.com/anmalan');
+    link.innerText = 'Klicka här för att komma till anmälningsformuläret';
+    link.style.fontSize = '25px';
+  
+    box.appendChild(link);
+  }, 100);
 }
 
 const validateEmail = email => {
