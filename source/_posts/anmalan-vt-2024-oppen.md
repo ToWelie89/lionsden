@@ -9,7 +9,7 @@ tags:
 	{% asset_img 1.jpg %}
 </div>
 
-Nu är det dags att börja anmäla sig för höstterminen som drar igång i augusti! Anmäl dig via formuläret som du når via knappen nedan.
+Nu är det dags att börja anmäla sig för vårterminen som drar igång i januari! Anmäl dig via formuläret som du når via knappen nedan.
 
 ## **Viktig information om anmälan**:
 * Anmälan måste ske via formuläret på vår hemsida, vi tar inte emot anmälningar över mail. Detta är för att anmälningarna måste hanteras i en gemensam databas.
