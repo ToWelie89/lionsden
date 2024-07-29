@@ -203,10 +203,17 @@ const run = async () => {
             for (let i = 0; i < json.data.length; i++) {
                 const item = json.data[i];
                 if (!handledIds.includes(item.id)) {
-                    const captionClone = item.caption.split('').join('');
-    
-                    const cleanedCaption = captionClone.match(/[a-zA-Z0-9 åäöÅÄÖ!?,.:;\[\]()]/g).join(''); // remove things like emojis
-                    let suggestedTitle = await aiHelper.getTitleInSwedish(cleanedCaption);
+
+                    console.log('item.caption', item.caption)
+                    let finalCaption = '';
+                    let suggestedTitle = '';
+
+                    if (item.caption) {
+                        const captionClone = item.caption.split('').join('');
+                        const cleanedCaption = captionClone.match(/[a-zA-Z0-9 åäöÅÄÖ!?,.:;\[\]()]/g).join(''); // remove things like emojis
+                        finalCaption = cleanedCaption;
+                        suggestedTitle = await aiHelper.getTitleInSwedish(cleanedCaption);
+                    }
         
                     console.log('Suggested title 1: ', suggestedTitle);
         
@@ -292,7 +299,7 @@ const run = async () => {
                         if (minutes < 10) minutes = `0${minutes}`;
                         if (seconds < 10) seconds = `0${seconds}`;
         
-                        let newCaption = captionClone.replaceAll(/#[a-zA-Z]{1,20}/g, '');
+                        let newCaption = finalCaption.replaceAll(/#[a-zA-Z]{1,20}/g, '');
                         // Replace instagram handles with their real names
                         // For instace, @ecrobin will translate to "Robin Sundlöf"
                         Object.keys(INSTAGRAM_HANDLES).forEach(key => {
