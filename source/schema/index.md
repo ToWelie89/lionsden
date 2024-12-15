@@ -13,11 +13,11 @@ slug: schema
 
 | Måndag | Tisdag | Onsdag | Torsdag | Fredag | Lördag | Söndag |
 |---|---|---|---|---|---|---|
-| |  | <span>6:15 - 7:30</span><br>Alla grupper |   | <span>6:15 - 7:30</span><br>Alla grupper |   |   |
+| |  | <span>6:00 - 7:30</span><br>Alla grupper |   | <span>6:00 - 7:30</span><br>Alla grupper |   |   |
 |   |  |   |   |  | <span>10:00 - 12:00</span><br>Tävling + Avancerade |  |
 |   |  |   |   |  | <span>12:00 - 13:30</span><br>Nybörjare + Fortsättare | |
 | <span>17:30 - 20:00</span><br>Tävlande | <span>17:30 - 20:00</span><br>Tävlande | <span>18:00 - 19:30</span><br>Nybörjare | <span>17:30 - 20:00</span><br>Tävlande | <span>18:00 - 19:30</span><br>Nybörjare |   |  |
-| <span>20:00 - 21:30</span><br>Avancerade | <span>20:00 - 21:30</span><br>Fortsättare |<span>19:30 - 21:00</span><br>Avancerade| <span>20:00 - 21:30</span><br>Fortsättare ||||
+| <span>20:00 - 21:45</span><br>Avancerade | <span>20:00 - 21:45</span><br>Fortsättare |<span>19:30 - 21:15</span><br>Avancerade| <span>20:00 - 21:45</span><br>Fortsättare ||||
 
 
 <!-- **OBS!** Schemat nedan är den som gäller under sommaren mellan 14:e juni och 20:e augusti. Efter sommaren kommer höstterminen dra igång och då kommer ett nytt schema.
