@@ -5,7 +5,7 @@ tags:
 ---
 
 <div style="padding-top: 20px; padding-bottom: 20px; width: 80%; margin: 0 auto;">
-	{% asset_img 1.jpg %}
+	{% asset_img 2.jpg %}
 </div>
 
 Nu är det dags att börja anmäla sig för vårterminen som drar igång i januari! Anmäl dig via formuläret som du når via knappen nedan.
