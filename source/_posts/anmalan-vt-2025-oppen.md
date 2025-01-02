@@ -1,6 +1,6 @@
 ---
 title: Anmälan inför vårterminen 2025
-date: 2024-12-15 15:06:58
+date: 2025-01-02 15:06:58
 tags:
 ---
 

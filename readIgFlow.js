@@ -10,6 +10,11 @@ dotenv.config();
 import mailer from './mailer.js';
 import aiHelper from './aiHelper.js';
 
+const handleIdsIgnoreList = [
+    '17853259464347467',
+    '18040605845038274'
+];
+
 const INSTAGRAM_HANDLES = {
     '@leoeshagi': 'Leo Eshagi',
     '@muaythaivik': 'Viktor Schiller',
@@ -202,7 +207,7 @@ const run = async () => {
         try {
             for (let i = 0; i < json.data.length; i++) {
                 const item = json.data[i];
-                if (!handledIds.includes(item.id)) {
+                if (!handledIds.includes(item.id) && !handleIdsIgnoreList.includes(item.id + '')) {
 
                     console.log('item.caption', item.caption)
                     let finalCaption = '';
