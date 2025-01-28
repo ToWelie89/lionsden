@@ -12,7 +12,8 @@ import aiHelper from './aiHelper.js';
 
 const handleIdsIgnoreList = [
     '17853259464347467',
-    '18040605845038274'
+    '18040605845038274',
+    '17863715873823073'
 ];
 
 const INSTAGRAM_HANDLES = {
