@@ -212,9 +212,9 @@ const run = async () => {
 
                     console.log('item.caption', item.caption)
                     let finalCaption = '';
-                    let suggestedTitle = '';
+                    let suggestedTitle = 'PLACEHOLDER TITLE';
 
-                    if (item.caption) {
+                    if (false/* item.caption */) {
                         const captionClone = item.caption.split('').join('');
                         const cleanedCaption = captionClone.match(/[a-zA-Z0-9 åäöÅÄÖ!?,.:;\[\]()]/g).join(''); // remove things like emojis
                         finalCaption = cleanedCaption;
