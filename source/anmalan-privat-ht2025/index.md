@@ -1,13 +1,29 @@
 ---
 title: Anmälan
-date: 2023-06-17 13:38:12
+date: 2025-06-17 21:04:32
 ---
 
+
+
 <script defer>
-
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
-
+//const endpoint = 'http://localhost:3000/graphql';
 var members;
+
+if (window.location.href.startsWith('https')) {
+  setTimeout(() => {
+    const box = document.getElementById('registerContainer');
+    box.innerHTML = '';
+  
+    const link = document.createElement('a');
+    link.setAttribute('href', 'http://sti-starcraft.org/form.php');
+    link.setAttribute('target', '_blank');
+    link.innerText = 'Klicka här för att komma till anmälningsformuläret';
+    link.style.fontSize = '25px';
+  
+    box.appendChild(link);
+  }, 100);
+}
 
 const validateEmail = email => {
   const regex = /[^\s@]+@[^\s@]+\.[^\s@]+/;
@@ -28,7 +44,7 @@ const validateSSN = ssn => {
   );
 }
 
-function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLastTerm = 0, lastTermTrainingGroup = '', message = '') {
+function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLastTerm = 0, lastTermTrainingGroup = '', message = '', gender = '') {
     message = message.replaceAll('\n', ' ');
 
     const query =
@@ -42,8 +58,8 @@ function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLast
         trainingGroup:"${trainingGroup}"
         memberLastTerm:${memberLastTerm}
         lastTermTrainingGroup:"${lastTermTrainingGroup}"
+        gender:"${gender}"
       ) {
-        id
         firstName
         lastName
         ssn
@@ -52,6 +68,7 @@ function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLast
         trainingGroup
         memberLastTerm
         lastTermTrainingGroup
+        gender
       }
     }`;
   return fetch(endpoint, {
@@ -106,13 +123,13 @@ function fetchAllSubmissions() {
     console.log('data returned:', resp);
     members = resp.data.members;
 
-    const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
+    /* const nyborjare_count = members.filter(x => x.trainingGroup === 'Nybörjargruppen').length;
     const fortsattare_count = members.filter(x => x.trainingGroup === 'Fortsättargruppen').length;
     const avancerade_count = members.filter(x => x.trainingGroup === 'AvanceradeGruppen').length;
     const tavling_count = members.filter(x => x.trainingGroup === 'Tävlingsgruppen').length;
     const morgon_count = members.filter(x => x.trainingGroup === 'MorgonFörmiddag').length;
 
-    /* document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
+    document.querySelector('#trainingGroup option:nth-child(2)').innerText += ` (${nyborjare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(3)').innerText += ` (${fortsattare_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(4)').innerText += ` (${avancerade_count} anmälda)`;
     document.querySelector('#trainingGroup option:nth-child(5)').innerText += ` (${tavling_count} anmälda)`;
@@ -214,6 +231,10 @@ function setListeners() {
       message += 'Träningsgrupp saknas\n';
       errorFound = true;
     }
+    if (!document.getElementById('genderSelect').value || document.getElementById('genderSelect').value === 'none') {
+      message += 'Kön ej valt\n';
+      errorFound = true;
+    }
     if (document.getElementById('memberLastTerm').checked) {
       if (!document.getElementById('trainingGroup2').value || document.getElementById('trainingGroup2').value === 'none') {
         message += 'Träningsgrupp förra terminen saknas\n';
@@ -239,7 +260,8 @@ function setListeners() {
         document.getElementById('trainingGroup').value,
         document.getElementById('memberLastTerm').checked ? 1 : 0,
         document.getElementById('trainingGroup2').value === 'none' ? '': document.getElementById('trainingGroup2').value,
-        document.getElementById('memberMessage').value
+        document.getElementById('memberMessage').value,
+        document.getElementById('genderSelect').value
       ).then(() => {
         document.getElementById('submitButton').removeAttribute('disabled');
       })
@@ -381,26 +403,25 @@ document.addEventListener("DOMContentLoaded", function(){
       filter: drop-shadow(2px 4px 6px gainsboro);
     }
 </style>
-
-<div id="successBox" style="display: none;">
-  <div id="checkboxContainer">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+<div id="registerContainer">
+  <div id="successBox" style="display: none;">
+    <div id="checkboxContainer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+    </div>
+    <h3>
+      Tack för din anmälan!
+    </h3>
+    <p>
+      Du är härmed anmäld och bör ha fått ett automatiskt bekräftelse-mail till epost-adressen du angav. Vänligen anmäl dig inte mer gång än en.
+    </p>
   </div>
-  <h3>
-    Tack för din anmälan!
-  </h3>
-  <p>
-    Du är härmed anmäld och bör ha fått ett automatiskt bekräftelse-mail till epost-adressen du angav. Vänligen anmäl dig inte mer gång än en.
-  </p>
-</div>
-<div id="failBox" style="display: none;">
-  <h3>
-    Något gick fel med din anmälan
-  </h3>
-  <p></p>
-</div>
-
-<form action="javascript:void(0);" id="signupForm">
+  <div id="failBox" style="display: none;">
+    <h3>
+      Något gick fel med din anmälan
+    </h3>
+    <p></p>
+  </div>
+  <form action="javascript:void(0);" id="signupForm">
     <div id="signup">
         <div class="signup__row">
             <div class="signup__column">
@@ -475,6 +496,18 @@ document.addEventListener("DOMContentLoaded", function(){
             </div>
         </div>
         <div class="signup__row">
+            <div class="signup__column">
+                Kön <span class="mandatory"></span>
+            </div>
+            <div class="signup__column">
+                <select id="genderSelect">
+                    <option value="none">VÄLJ</option>
+                    <option value="male">Kille</option>
+                    <option value="female">Tjej</option>
+                </select>
+            </div>
+        </div>
+        <div class="signup__row">
             <div class="signup__column double" style="font-size: 1em" id="chosenGroupInfo"></div>
         </div>
         <div class="signup__row info" id="trainingGroupDescription" style="display: none; margin-bottom: 10px;">
@@ -520,4 +553,5 @@ document.addEventListener("DOMContentLoaded", function(){
             </div>
         </div>
     </div>
-</form>
+  </form>
+</div>

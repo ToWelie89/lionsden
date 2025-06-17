@@ -3,13 +3,14 @@ title: Anmälan
 date: 2021-01-28 12:26:22
 ---
 
-<!-- <h3>
+<h3>
 Anmälan är inte öppen än för allmänheten, vänligen återkom senare till denna sida, då kommer du att hitta ett
 anmälningsformulär här.
-</h3> -->
+</h3>
 
 <script defer>
 const endpoint = 'http://sti-starcraft.org:3000/graphql';
+//const endpoint = 'http://localhost:3000/graphql';
 var members;
 
 if (window.location.href.startsWith('https')) {
@@ -46,7 +47,7 @@ const validateSSN = ssn => {
   );
 }
 
-function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLastTerm = 0, lastTermTrainingGroup = '', message = '') {
+function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLastTerm = 0, lastTermTrainingGroup = '', message = '', gender = '') {
     message = message.replaceAll('\n', ' ');
 
     const query =
@@ -60,8 +61,8 @@ function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLast
         trainingGroup:"${trainingGroup}"
         memberLastTerm:${memberLastTerm}
         lastTermTrainingGroup:"${lastTermTrainingGroup}"
+        gender:"${gender}"
       ) {
-        id
         firstName
         lastName
         ssn
@@ -70,6 +71,7 @@ function submitMember(firstName, lastName, ssn, email, trainingGroup, memberLast
         trainingGroup
         memberLastTerm
         lastTermTrainingGroup
+        gender
       }
     }`;
   return fetch(endpoint, {
@@ -232,6 +234,10 @@ function setListeners() {
       message += 'Träningsgrupp saknas\n';
       errorFound = true;
     }
+    if (!document.getElementById('genderSelect').value || document.getElementById('genderSelect').value === 'none') {
+      message += 'Kön ej valt\n';
+      errorFound = true;
+    }
     if (document.getElementById('memberLastTerm').checked) {
       if (!document.getElementById('trainingGroup2').value || document.getElementById('trainingGroup2').value === 'none') {
         message += 'Träningsgrupp förra terminen saknas\n';
@@ -257,7 +263,8 @@ function setListeners() {
         document.getElementById('trainingGroup').value,
         document.getElementById('memberLastTerm').checked ? 1 : 0,
         document.getElementById('trainingGroup2').value === 'none' ? '': document.getElementById('trainingGroup2').value,
-        document.getElementById('memberMessage').value
+        document.getElementById('memberMessage').value,
+        document.getElementById('genderSelect').value
       ).then(() => {
         document.getElementById('submitButton').removeAttribute('disabled');
       })
@@ -399,7 +406,7 @@ document.addEventListener("DOMContentLoaded", function(){
       filter: drop-shadow(2px 4px 6px gainsboro);
     }
 </style>
-
+<!-- 
 <div id="registerContainer">
   <div id="successBox" style="display: none;">
     <div id="checkboxContainer">
@@ -493,6 +500,18 @@ document.addEventListener("DOMContentLoaded", function(){
             </div>
         </div>
         <div class="signup__row">
+            <div class="signup__column">
+                Kön <span class="mandatory"></span>
+            </div>
+            <div class="signup__column">
+                <select id="genderSelect">
+                    <option value="none">VÄLJ</option>
+                    <option value="male">Kille</option>
+                    <option value="female">Tjej</option>
+                </select>
+            </div>
+        </div>
+        <div class="signup__row">
             <div class="signup__column double" style="font-size: 1em" id="chosenGroupInfo"></div>
         </div>
         <div class="signup__row info" id="trainingGroupDescription" style="display: none; margin-bottom: 10px;">
@@ -540,3 +559,4 @@ document.addEventListener("DOMContentLoaded", function(){
     </div>
   </form>
 </div>
+ -->
